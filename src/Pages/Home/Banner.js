@@ -5,13 +5,13 @@ import Button from './Button';
 
 const Banner = () => {
     return (
-        <div class="hero background min-h-screen px-12 ">
-            <div class="hero-content flex-col lg:flex-row-reverse">
-                <img src={chair} class="max-w-sm img-fluid  rounded-lg shadow-2xl" />
+        <div className="hero background min-h-screen px-12 ">
+            <div className="hero-content flex-col lg:flex-row-reverse">
+                <img src={chair} className="max-w-sm img-fluid  rounded-lg shadow-2xl" />
                 <div >
-                    <h1 class="text-6xl font-bold">Your New Smile Starts Here</h1>
-                    <p class="py-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</p>
-                    <Button></Button>
+                    <h1 className="text-6xl font-bold">Your New Smile Starts Here</h1>
+                    <p className="py-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</p>
+                    <Button>Get Started</Button>
                 </div>
             </div>
         </div>
